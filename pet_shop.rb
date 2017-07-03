@@ -82,7 +82,7 @@ end
 
 def sell_pet_to_customer(shop, pet, customer)
   pre_count = customer_pet_count(customer)
-  
+
   if pet != nil
     if customer_can_afford_pet(customer, pet) == true
    
